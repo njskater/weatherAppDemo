@@ -23,6 +23,8 @@ The application is a typical layered design, it has following layers:
 Services are loosed coupled components so they can be easily
 replaced by other implementations.
 
+At the moment the backend weather API used is: Open Weather Map -- http://openweathermap.org
+
 Unit tests covers critical code path and used mocked object when necessary.
 
 Spring boot is used for quick turn around and container-less deployment.
