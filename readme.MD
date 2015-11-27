@@ -10,6 +10,23 @@ Back end: Spring Boot
 
 Unit test: JUnit, Mockito
 
+------------------------------------
+Design Overview
+------------------------------------
+
+The application is a typical layered design, it has following layers:
+
+* client side: including html pages and javascript files
+* web tier: Restful controllers
+* service tier: City list Service and Weather service
+
+Services are loosed coupled components so they can be easily
+replaced by other implementations.
+
+Unit tests covers critical code path and used mocked object when necessary.
+
+Spring boot is used for quick turn around and container-less deployment.
+
 
 ------------------------------------
 System Requirement:
