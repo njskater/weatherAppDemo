@@ -14,7 +14,7 @@ MAVEN 3.0+
 To build and run unit test this appication:
 ------------------------------------
 ```
-mvn clean install
+mvn clean test
 ```
 
 ------------------------------------
