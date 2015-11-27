@@ -2,6 +2,16 @@
 This is a demo application to display weather condition.
 
 ------------------------------------
+Framework used:
+------------------------------------
+Front end: AngularJS, BootStrap
+
+Back end: Spring Boot
+
+Unit test: JUnit, Mockito
+
+
+------------------------------------
 System Requirement:
 ------------------------------------
 Application tested on Mac OSX 10.10 and 10.11  
